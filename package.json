@@ -1,0 +1,15 @@
+{
+  "name": "daily-diet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicacao fullstack para acompanhamento de refeicoes.",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend",
+    "db:push": "npm run db:push --prefix backend",
+    "db:studio": "npm run db:studio --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

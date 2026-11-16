@@ -1,0 +1,16 @@
+node_modules/
+dist/
+**/.env
+**/.env.*
+!**/.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+coverage/
+*.log
+.npm/
+.vite/
+.cache/
+.DS_Store
+Thumbs.db
